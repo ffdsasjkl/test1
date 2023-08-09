@@ -1,0 +1,60 @@
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+input[type=button],
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=phone],
+input[type=reset],
+input[type=submit],
+input[type=tel],
+input[type=text] {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0
+}
+
+.checkbox .el-checkbox__label {
+    color: #666;
+    vertical-align: top;
+    line-height: 1em;
+    word-break: break-all;
+    white-space: normal;
+    line-height: 1.7;
+    font-weight: 500
+}
+
+.checkbox .el-checkbox__input {
+    height: 20px;
+    vertical-align: top;
+    margin-top: 3px
+}
+
+.checkbox .el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #000
+}
+
+.checkbox .el-checkbox__input.is-disabled .el-checkbox__inner {
+    background-color: #f7f3f2
+}
+
+.checkbox .el-checkbox__inner {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc!important
+}
+
+.checkbox .el-checkbox__input.is-checked .el-checkbox__inner,
+.checkbox .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background: #007fa8 url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAQAAABwkq/rAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflARwKCBfrb2sfAAAAQUlEQVQI113MMQ2AQBREwQ311RjAKsECEsAQGg4XQ0HCB7LVm2Ijn03yzsGB8Q+7xGp+YBOJjqVAojkpuO+bXiAXcOxRASxswc8AAAAASUVORK5CYII=") no-repeat left 6px top 6px;
+    border-color: #007fa8!important
+}
+
+.checkbox .el-checkbox__input.is-checked .el-checkbox__inner:after {
+    display: none
+}
